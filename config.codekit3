@@ -26,16 +26,6 @@
 		"oAP": "\/assets\/css\/main.css.map",
 		"oF": 0
 		},
-	"\/assets\/images\/blog-section-background-backup.jpg": {
-		"ft": 16384,
-		"iS": 1941101,
-		"oA": 0,
-		"oAP": "\/assets\/images\/blog-section-background-backup.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/images\/blog-section-background.jpg": {
 		"ft": 16384,
 		"iS": 1083215,
@@ -46,288 +36,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/images\/camille-orgel-58392-unsplash.jpg": {
-		"ft": 16384,
-		"iS": 1639027,
-		"oA": 0,
-		"oAP": "\/assets\/images\/camille-orgel-58392-unsplash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/images\/color_game.jpg": {
 		"ft": 16384,
 		"iS": 2174578,
 		"oA": 0,
 		"oAP": "\/assets\/images\/color_game.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/blog-section-background-backup.jpg": {
-		"ft": 16384,
-		"iS": 3004832,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/blog-section-background-backup.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/blog-section-background.jpg": {
-		"ft": 16384,
-		"iS": 2200768,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/blog-section-background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/camille-orgel-58392-unsplash.jpg": {
-		"ft": 16384,
-		"iS": 3243023,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/camille-orgel-58392-unsplash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/color_game.jpg": {
-		"ft": 16384,
-		"iS": 2202754,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/color_game.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/hero-background-backup-2.jpg": {
-		"ft": 16384,
-		"iS": 1396438,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/hero-background-backup-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/hero-background-backup-3.jpg": {
-		"ft": 16384,
-		"iS": 953551,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/hero-background-backup-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/hero-background.jpg": {
-		"ft": 16384,
-		"iS": 1544098,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/hero-background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla.zip",
-		"oF": 0
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/blog-section-background-backup-min.jpg": {
-		"ft": 16384,
-		"iS": 1941101,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/blog-section-background-backup-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/blog-section-background-min.jpg": {
-		"ft": 16384,
-		"iS": 1083215,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/blog-section-background-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/camille-orgel-58392-unsplash-min.jpg": {
-		"ft": 16384,
-		"iS": 1639027,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/camille-orgel-58392-unsplash-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/color_game-min.jpg": {
-		"ft": 16384,
-		"iS": 2174578,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/color_game-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/hero-background-backup-2-min.jpg": {
-		"ft": 16384,
-		"iS": 582503,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/hero-background-backup-2-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/hero-background-backup-3-min.jpg": {
-		"ft": 16384,
-		"iS": 769376,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/hero-background-backup-3-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/hero-background-min.jpg": {
-		"ft": 16384,
-		"iS": 1218100,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/hero-background-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/portfolio-thumb-01-min.jpg": {
-		"ft": 16384,
-		"iS": 2460234,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/portfolio-thumb-01-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/quote_machine-min.jpg": {
-		"ft": 16384,
-		"iS": 592530,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/quote_machine-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/todo_list-min.jpg": {
-		"ft": 16384,
-		"iS": 452746,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/todo_list-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/weather_app-min.jpg": {
-		"ft": 16384,
-		"iS": 1851392,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/weather_app-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/optimizilla\/wikipedia_viewer-min.jpg": {
-		"ft": 16384,
-		"iS": 1709099,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/optimizilla\/wikipedia_viewer-min.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/portfolio-thumb-01.jpg": {
-		"ft": 16384,
-		"iS": 5377718,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/portfolio-thumb-01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/quote_machine.jpg": {
-		"ft": 16384,
-		"iS": 1603241,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/quote_machine.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/todo_list.jpg": {
-		"ft": 16384,
-		"iS": 829925,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/todo_list.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/weather_app.jpg": {
-		"ft": 16384,
-		"iS": 1851392,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/weather_app.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/fullsize images\/wikipedia_viewer.jpg": {
-		"ft": 16384,
-		"iS": 1709099,
-		"oA": 0,
-		"oAP": "\/assets\/images\/fullsize images\/wikipedia_viewer.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/hero-background-backup-2.jpg": {
-		"ft": 16384,
-		"iS": 582503,
-		"oA": 0,
-		"oAP": "\/assets\/images\/hero-background-backup-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/hero-background-backup-3.jpg": {
-		"ft": 16384,
-		"iS": 769376,
-		"oA": 0,
-		"oAP": "\/assets\/images\/hero-background-backup-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -546,6 +259,24 @@
 		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
+		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
