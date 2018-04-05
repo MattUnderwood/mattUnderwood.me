@@ -1,0 +1,74 @@
+//	VARS
+$xsml: "only screen and (min-width : 320px)";
+$small: "only screen and (min-width : 360px)";
+$med: "only screen and (min-width : 768px)";
+$lrg: "only screen and (min-width : 1024px)";
+$xlrg: "only screen and (min-width : 1400px)";
+
+$screen : (
+	xsml: 320px,
+	sml: 375px,
+	med: 678px,
+	lrg: 1024px,
+	xlrg: 1440px
+);
+
+.container {
+	// max-width: 80rem;
+	margin: 0 auto;
+
+	&--flex {
+  	    @extend .container;
+		display: flex;
+		justify-content: flex-start;
+		flex-flow: row wrap;
+		align-items: flex-start;
+	}
+
+    &--flex0 {
+        @extend .container;
+        margin: 0;
+		display: flex;
+		justify-content: flex-start;
+		flex-flow: row wrap;
+		align-items: flex-start;
+    }
+}
+
+.row {
+	@extend .container--flex;
+    &--spaced {
+        margin-bottom: 2rem;
+        @media #{$med} {
+            margin-bottom: 4rem;
+        }
+        @media #{$lrg} {
+            margin-bottom: 6rem;
+        }
+    }
+}
+
+.lrg, .med, .sml, .x-sml {padding: 0 1rem;}
+
+
+.col-4 { flex: 0 0 100%;}
+.col-2 { flex: 0 0 50%;}
+
+.offset { margin-left: 50%;}
+
+
+//    GRID COLUMNS
+
+@media #{$med} {
+    .med {
+	&--col-5 {padding: 0 1rem; flex: 0 0 75%; max-width:75%;}
+	&--col-2 {padding: 0 1rem; flex: 0 0 45%; max-width:45%;}
+}
+}
+
+@media #{$lrg}{
+    .lrg {
+	&--col-7 {padding: 0 1rem; flex: 0 0 55%; max-width: 55%;}
+	&--col-3 {padding: 0 1rem; flex: 0 0 30%; max-width: 30%;}
+}
+}
