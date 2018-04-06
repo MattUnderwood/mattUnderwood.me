@@ -1,1 +1,1 @@
-$(function(){$(window).scroll(function(){$(this).scrollTop()>300?($(".header").addClass("header--sticky"),$("body").addClass("is-scrolling")):($(".header").removeClass("header--sticky"),$("body").removeClass("is-scrolling"))})});
+$(function(){$(window).scroll(function(){$(this).scrollTop()>420?($(".header").addClass("header--sticky"),$("body").addClass("is-scrolling")):($(".header").removeClass("header--sticky"),$("body").removeClass("is-scrolling"))})});
