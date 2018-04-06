@@ -2,7 +2,7 @@
 
 $(function(){
     $(window).scroll(function(){
-        if ($(this).scrollTop() > 420) {
+        if ($(this).scrollTop() > 300) {
             $('.header').addClass('header--sticky');
             $('body').addClass('is-scrolling');
         } else {

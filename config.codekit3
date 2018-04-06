@@ -28,7 +28,7 @@
 		},
 	"\/assets\/images\/blog-section-background.jpg": {
 		"ft": 16384,
-		"iS": 1083215,
+		"iS": 388676,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-section-background.jpg",
 		"oF": 0,
@@ -38,7 +38,7 @@
 		},
 	"\/assets\/images\/color_game.jpg": {
 		"ft": 16384,
-		"iS": 2174578,
+		"iS": 1124119,
 		"oA": 0,
 		"oAP": "\/assets\/images\/color_game.jpg",
 		"oF": 0,
@@ -48,7 +48,7 @@
 		},
 	"\/assets\/images\/hero-background.jpg": {
 		"ft": 16384,
-		"iS": 1218100,
+		"iS": 530085,
 		"oA": 0,
 		"oAP": "\/assets\/images\/hero-background.jpg",
 		"oF": 0,
@@ -58,7 +58,7 @@
 		},
 	"\/assets\/images\/portfolio-thumb-01.jpg": {
 		"ft": 16384,
-		"iS": 2460234,
+		"iS": 1127889,
 		"oA": 0,
 		"oAP": "\/assets\/images\/portfolio-thumb-01.jpg",
 		"oF": 0,
@@ -68,7 +68,7 @@
 		},
 	"\/assets\/images\/quote_machine.jpg": {
 		"ft": 16384,
-		"iS": 592530,
+		"iS": 443710,
 		"oA": 0,
 		"oAP": "\/assets\/images\/quote_machine.jpg",
 		"oF": 0,
@@ -78,7 +78,7 @@
 		},
 	"\/assets\/images\/todo_list.jpg": {
 		"ft": 16384,
-		"iS": 452746,
+		"iS": 265304,
 		"oA": 0,
 		"oAP": "\/assets\/images\/todo_list.jpg",
 		"oF": 0,
@@ -88,7 +88,7 @@
 		},
 	"\/assets\/images\/weather_app.jpg": {
 		"ft": 16384,
-		"iS": 1851392,
+		"iS": 705907,
 		"oA": 0,
 		"oAP": "\/assets\/images\/weather_app.jpg",
 		"oF": 0,
@@ -98,7 +98,7 @@
 		},
 	"\/assets\/images\/wikipedia_viewer.jpg": {
 		"ft": 16384,
-		"iS": 1709099,
+		"iS": 1315483,
 		"oA": 0,
 		"oAP": "\/assets\/images\/wikipedia_viewer.jpg",
 		"oF": 0,
@@ -125,6 +125,48 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_grid.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_grid.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_modules.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_modules.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_reset.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_reset.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_typography.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_typography.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_vars.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/_vars.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/main.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/scss\/.sass-cache\/028bacf97f7f586f1485cf4c6b823363c2929d84\/main.scssc",
+		"oF": 0
 		},
 	"\/assets\/scss\/.sass-cache\/afd313d0176559fe53a60ebfafbd35abcb69c12f\/_grid.scssc": {
 		"cB": 0,
