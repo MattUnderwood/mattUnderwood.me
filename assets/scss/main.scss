@@ -142,6 +142,46 @@
     }
 }
 
+.darken_weather {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url(https://res.cloudinary.com/dls40gzte/image/upload/c_scale,q_40,w_800/v1523317885/mattUnderwood.me/weather_app.jpg);
+}
+
+.darken_wiki {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url(https://res.cloudinary.com/dls40gzte/image/upload/c_scale,q_40,w_800/v1523317885/mattUnderwood.me/wikipedia_viewer.jpg);
+}
+
+.darken_quote {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url(https://res.cloudinary.com/dls40gzte/image/upload/c_scale,q_40,w_800/v1523317884/mattUnderwood.me/quote_machine.jpg);
+}
+
+.darken_color {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url(https://res.cloudinary.com/dls40gzte/image/upload/c_scale,q_40,w_800/v1523317884/mattUnderwood.me/color_game.jpg);
+}
+
+.darken_todo {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url(https://res.cloudinary.com/dls40gzte/image/upload/c_scale,q_40,w_800/v1523317884/mattUnderwood.me/todo_list.jpg);
+}
+
 #blog {
     background: url(../images/blog-section-background.jpg);
     background-size: cover;
