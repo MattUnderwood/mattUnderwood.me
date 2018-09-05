@@ -334,6 +334,100 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/RESTfulBlogApp\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/RESTfulBlogApp\/app-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/RESTfulBlogApp\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/RESTfulBlogApp\/app-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/RESTfulBlogApp\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/RESTfulBlogApp\/node_modules",
+		"oF": 0
+		},
+	"\/RESTfulBlogApp\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/RESTfulBlogApp\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/RESTfulBlogApp\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/RESTfulBlogApp\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/RESTfulBlogApp\/public\/stylesheets\/app.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/RESTfulBlogApp\/public\/stylesheets\/app-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/RESTfulBlogApp\/views\/edit.ejs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/RESTfulBlogApp\/views\/edit.ejs",
+		"oF": 0
+		},
+	"\/RESTfulBlogApp\/views\/index.ejs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/RESTfulBlogApp\/views\/index.ejs",
+		"oF": 0
+		},
+	"\/RESTfulBlogApp\/views\/new.ejs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/RESTfulBlogApp\/views\/new.ejs",
+		"oF": 0
+		},
+	"\/RESTfulBlogApp\/views\/partials\/footer.ejs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/RESTfulBlogApp\/views\/partials\/footer.ejs",
+		"oF": 0
+		},
+	"\/RESTfulBlogApp\/views\/partials\/header.ejs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/RESTfulBlogApp\/views\/partials\/header.ejs",
+		"oF": 0
+		},
+	"\/RESTfulBlogApp\/views\/show.ejs": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/RESTfulBlogApp\/views\/show.ejs",
+		"oF": 0
 		}
 	},
 "hooks": [
