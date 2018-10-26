@@ -8,8 +8,12 @@ port                   = 3000
 
 
 // APP CONFIG
-app.set('view engine', 'pug');
-app.use(express.static(__dirname + '/public'));
+app.set('view engine', 'ejs');
+app.use(express.static(__dirname + 'public'));
+// NOT NEEDED YET
+// app.use(bodyParser.urlencoded({extended: true}));
+// app.use(expressSanitizer());
+// app.use(methodOverride("_method"));
 
 
 // INDEX ROUTE
