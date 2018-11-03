@@ -9,77 +9,44 @@
 @import 'grid';
 @import 'modules';
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 4px -4px #9B9B9B;
+    height: auto;
+    min-height: 70px;
+    background: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+
+// Hamburger Menu
+.nav-menu a {
+    clear: right;
+}
+label {
+    margin-right: 40px;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
 .header-background {
     background: url('https://res.cloudinary.com/dls40gzte/image/upload/c_scale,q_40,w_2000/v1523317884/mattUnderwood.me/hero-background.jpg');
+    // background: url('https://res.cloudinary.com/dls40gzte/image/upload/v1540562705/Tetons_from_Togwotee_Pass_mz6wuy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    padding: 2rem 1rem;
-
-    @media #{$med} {
-        padding: 0 1rem 8rem;
-    }
-}
-
-.header {
-    &__container {}
-    &__title {display: none}
-    &__button{}
-
-    @media #{$med} {
-        &__container{
-            display: flex;
-            justify-content: flex-end;
-            padding: 2rem 1rem 3rem;
-        }
-    }
-
-    &--sticky {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-
-        background: white;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-
-        .header {
-            &__container {
-                padding: 1rem;
-                justify-content: space-between;
-                align-items: center;
-            }
-            &__title {display: block}
-            &__button {
-                box-shadow: none;
-            }
-        }
-    }
-}
-
-#contact-me {
-    padding: 1rem 0;
-    display: block;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-
-    @media #{$med} {
-        position: relative;
-        width: 13rem;
-        height: auto;
-    }
-
-}
-
-.is-scrolling {
-    margin-top: 8.5rem;
-
-    .header-background {
-        background-position: bottom;
-    }
+    padding: 6rem 1rem 10rem 1rem;
+    margin-top: 20px;
 }
 
 .hero {
@@ -182,21 +149,20 @@
     ), url(https://res.cloudinary.com/dls40gzte/image/upload/c_scale,q_40,w_800/v1523317884/mattUnderwood.me/todo_list.jpg);
 }
 
-#blog {
-    background: url(../images/blog-section-background.jpg);
+// This creates an anchor position so the navbar doesn't cover page content
+.anchor {
+    height: 70px;
+    margin-top: -70px;
+    display: block;
+    visibility: hidden;
+}
+
+.blog {
+    background: url(../assets/images/blog-section-background.jpg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    padding: 2rem 0;
-    margin-bottom: 0;
-    @media #{$med} {padding: 3rem 0}
-    @media #{$lrg} {
-        // background-position: top 15% right;
-        padding: 4rem 0;
-    }
 
-}
-.blog {
     &__container {
         margin-left: 1rem;
     }
@@ -207,6 +173,19 @@
     &__article-link {color: $text}
     @media #{$med} {
         &__article-title {max-width: 26rem}
+    }
+
+    @media #{$xsml}{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    @media #{$med}{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    @media #{$lrg}{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 }
 
@@ -236,24 +215,19 @@
         font-size: 1.5rem;
         color: white;
         transition: all .25s ease-in-out;
-
-
-
-
-
-
         &:hover {color: $link;}
     }
 }
 
+.footer {
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+
+}
 .footer-list {
     color: $light;
-    font-size: .875rem;
-    margin: 4rem auto 4rem;
-
-    @media #{$lrg}{
-        margin: 2rem;
-    }
+    font-size: 1rem;
 
     &__item {
         display: inline-block;
@@ -277,3 +251,26 @@
         margin-left: 2rem;
     }
 }
+
+// HAMBURGER MENU MEDIA QUERIES
+@media only screen and (max-width: 600px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .nav-menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    #nav-menu a {
+        display: block;
+        border: 1px solid #EAEAEB;
+        margin: 0;
+    }
+
+    #toggle:checked + .nav-menu {
+        display: block;
+    }
+}
+

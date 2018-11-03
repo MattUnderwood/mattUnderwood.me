@@ -8,35 +8,54 @@ port                   = 3000
 
 
 // APP CONFIG
+mongoose.connect("mongodb://localhost/mattUnderwood_me", {useNewUrlParser: true });
 app.set('view engine', 'ejs');
-app.use(express.static(__dirname + 'public'));
-// NOT NEEDED YET
-// app.use(bodyParser.urlencoded({extended: true}));
-// app.use(expressSanitizer());
-// app.use(methodOverride("_method"));
+app.use(express.static(__dirname + '/public'));
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(expressSanitizer());
+app.use(methodOverride("_method"));
 
+
+// MONGOOSE/MODEL CONFIG
+var blogSchema = new mongoose.Schema ({
+    title: String,
+    image: String,
+    body: String,
+    created: {type: Date, default: Date.now}
+});
+
+var Blog = mongoose.model("Blog", blogSchema);
+
+// SINGLE BLOG CREATION FOR TEST
+// Blog.create({
+//     title: "Test Blog",
+//     image: "https://images.unsplash.com/photo-1529485726363-95c8d62f656f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0274f107ddcec622ed9e5f9aafb81cc4&auto=format&fit=crop&w=1567&q=80",
+//     body: "Hello, this is a test"
+// });
+
+// RESTFUL ROUTES
 
 // INDEX ROUTE
 app.get('/', (req, res) => res.render('index'));
 
 // BLOG ROUTE
-app.get('/blog', (req, res) => {
+app.get('/blogs', (req, res) => {
     Blog.find({}, (err, blogs) => {
         if (err) {
             console.log('Error');
         } else {
-            res.render('blog', {blogs});
+            res.render('blog', {blogs: blogs});
         }
     });
 });
 
 // NEW ROUTE
-app.get("/blog/new", (req, res) => {
+app.get("/blogs/new", (req, res) => {
     res.render("new");
 });
 
 // CREATE ROUTE
-app.post("/blog", (req, res) => {
+app.post("/blogs", (req, res) => {
     // implement middleware for sanitize line in the future
     req.body.blog.body = req.sanitize(req.body.blog.body)
     // create blog
@@ -45,16 +64,16 @@ app.post("/blog", (req, res) => {
             res.render("new");
         } else {
             // then redirect to the index
-            res.redirect("/blog");
+            res.redirect("/blogs");
         }
     })
 });
 
 // SHOW ROUTE
-app.get("/blog/:id", (req, res) => {
+app.get("/blogs/:id", (req, res) => {
     Blog.findById(req.params.id, (err, foundBlog) => {
         if(err){
-            res.redirect("/blog");
+            res.redirect("/blogs");
         } else {
             res.render("show", {blog: foundBlog});
         }
@@ -62,10 +81,10 @@ app.get("/blog/:id", (req, res) => {
 });
 
 // EDIT ROUTE
-app.get("/blog/:id/edit", (req, res) => {
+app.get("/blogs/:id/edit", (req, res) => {
     Blog.findById(req.params.id, (err, foundBlog) => {
         if(err){
-            res.redirect("/blog");
+            res.redirect("/blogs");
         } else {
             res.render("edit", {blog: foundBlog});
         }
@@ -73,31 +92,29 @@ app.get("/blog/:id/edit", (req, res) => {
 });
 
 // UPDATE ROUTE
-app.put("/blog/:id", (req, res) => {
+app.put("/blogs/:id", (req, res) => {
     // implement middleware for sanitize line in the future
     req.body.blog.body = req.sanitize(req.body.blog.body)
     Blog.findByIdAndUpdate(req.params.id, req.body.blog, (err, updatedBlog) => {
         if(err){
-            res.redirect("/blog");
+            res.redirect("/blogs");
         } else {
-            res.redirect(`/blog/${req.params.id}`);
+            res.redirect(`/blogs/${req.params.id}`);
         }
     })
 });
 
 // DELETE ROUTE
-app.delete("/blog/:id", (req, res) => {
+app.delete("/blogs/:id", (req, res) => {
     // destroy blog
     Blog.findByIdAndRemove(req.params.id, err => {
         if(err){
-            res.redirect("/blog");
+            res.redirect("/blogs");
         } else {
-            res.redirect("/blog");
+            res.redirect("/blogs");
         }
     })
     // redirect somewhere
 });
-
-
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

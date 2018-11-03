@@ -13,6 +13,20 @@ $screen : (
 	xlrg: 1440px
 );
 
+.nav-title {
+	float: left;
+	margin-left: 25px;
+}
+
+.nav-menu {
+	float: right;
+}
+
+.navbar a {
+	display: inline;
+    padding-right: 25px;
+}
+
 .container {
 	// max-width: 80rem;
 	margin: 0 auto;
@@ -72,3 +86,4 @@ $screen : (
 	&--col-3 {padding: 0 1rem; flex: 0 0 30%; max-width: 30%;}
 }
 }
+

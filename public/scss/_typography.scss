@@ -5,12 +5,26 @@ body {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-
     position: relative;
+}
+
+.navbar {
+    line-height: 70px;
+    height: 70px;
+}
+
+.nav-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.navbar a {
+    text-decoration: none;
 }
 
 .hero__description {
     font-size: 1.15rem;
+    font-weight: 500;
 }
 
 h1, h2, h3, h4, h5 {

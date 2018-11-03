@@ -1,19 +1,11 @@
-/* global $ */
+// Close hamburger dropdown menu when a menu link is clicked
+var nav_menu = document.getElementById('nav-menu');
+    var toggle = document.getElementById("toggle");
 
-// When document is ready...
-$(function() {
-    $('.header').removeClass('header--sticky');
-    $('body').removeClass('is-scrolling');
-});
+    nav_menu.addEventListener('click', handleMenuClick);
 
-$(function(){
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 420) {
-            $('.header').addClass('header--sticky');
-            $('body').addClass('is-scrolling');
-        } else {
-            $('.header').removeClass('header--sticky');
-            $('body').removeClass('is-scrolling');
-        }
-    });
-});
+    function handleMenuClick(event) {
+      if (event.target instanceof HTMLAnchorElement) {
+        toggle.checked = false;
+      }
+    }
